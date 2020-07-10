@@ -42,6 +42,8 @@ data class User(
 
     class Builder(){
 
+
+
         var id:String = "0"
         var firstName:String? = null
         var lastName:String? = null

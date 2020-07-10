@@ -13,6 +13,8 @@ fun String.truncate(lenght: Int = 16) : String{
     val filler: String = "..."
     return this.substring(0, lenght).trimEnd { c ->  c.equals(' ') } + filler
 
+
+
 }
 
 
